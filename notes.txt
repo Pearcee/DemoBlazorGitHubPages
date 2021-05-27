@@ -1,0 +1,8 @@
+mkdir gh-pages
+cd gh-pages/
+
+#git clone git@github.com:chrisjacob/grandmaster.git .
+git checkout origin/gh-pages -b gh-pages
+ls -la
+git branch -d master
+git branch
